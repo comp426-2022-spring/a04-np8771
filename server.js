@@ -11,6 +11,7 @@ args["port", "debug", "log", "help"]
 console.log(args)
 
 
+
 const port = args.port || process.env.PORT || 5555
 const debug = args.debug || false
 const log = args.log || true
